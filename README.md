@@ -42,6 +42,6 @@ Problema ao buscar o conda env no Windows
 
 
 
-# faz uma cópia da estrutura de pastas do repositório
+#### Faça uma cópia da estrutura de pastas do repositório
 
-cookiecutter https://github.com/drivendata/cookiecutter-data-science.git
+cookiecutter https://github.com/rochageorge/cookiecutter-gavb.git

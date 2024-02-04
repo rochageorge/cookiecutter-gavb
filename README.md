@@ -5,22 +5,38 @@ Este projeto tem como objetivo, servir como estrutura base para a criação de n
 
 
 
-### cookiecutter
+#### WorkFlow
 
-pip install --user cookiecutter
-
-pip install --upgrade cookiecutter
-
-
-
-
-### Referência mini conda
-
-- miniconda3 - https://docs.conda.io/projects/miniconda/en/latest/
+1. ###### Instale o cookiecutter
+2. ###### Instale o miniconda
+3. ###### inicie o projeto
     
-- comandos https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#activating-an-environment
+    cookiecutter https://github.com/rochageorge/cookiecutter-gavb.git
 
-### Linux 
+4. ###### Crie um ambiente virtual conda - ao nomear o ambiente, coloque o nome do projeto seguido do prefixo _p + versão do python
+
+    conda create -n nome_do_projeto_p39 python=3.9
+
+5. ###### Ative o ambiente recém criado
+    
+    conda activate nome_do_projeto_p39
+
+6. ###### Selecione o kernel no notebook
+
+    Ao usar o notebook para criar seus modelos, selecione o ambiente conda criado 
+
+
+
+
+### Instalação cookiecutter
+
+    pip install --user cookiecutter && pip install --upgrade cookiecutter
+
+
+
+
+
+#### Linux 
 
     mkdir -p ~/miniconda3
     wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
@@ -31,7 +47,7 @@ pip install --upgrade cookiecutter
     ~/miniconda3/bin/conda init zsh
 
 
-### Windows
+#### Windows
 
     acesse: https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe
     
@@ -48,23 +64,9 @@ Problema ao buscar o conda env no Windows
 
 
 
+### Referência mini conda
 
-#### WorkFlow
-
-1. Instale o cookiecutter
-2. Instale o miniconda
-3. inicie o projeto
+- miniconda3 - https://docs.conda.io/projects/miniconda/en/latest/
     
-    cookiecutter https://github.com/rochageorge/cookiecutter-gavb.git
+- comandos https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#activating-an-environment
 
-4. Crie um ambiente virtual conda - ao nomear o ambiente, coloque o nome do projeto seguido do prefixo _p + versão do python
-
-    conda create -n nome_do_projeto_p39 python=3.9
-
-5. Ative o ambiente recém criado
-    
-    conda activate nome_do_projeto_p39
-
-6. Selecione o kernel no notebook
-
-    Ao usar o notebook para criar seus modelos, selecione o ambiente conda criado 

@@ -61,4 +61,10 @@ Problema ao buscar o conda env no Windows
 
     conda create -n nome_do_projeto_p39 python=3.9
 
+5. Ative o ambiente recém criado
     
+    conda activate nome_do_projeto_p39
+
+6. Selecione o kernel no notebook
+
+    Ao usar o notebook para criar seus modelos, selecione o ambiente conda criado 

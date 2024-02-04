@@ -11,7 +11,9 @@ pip install --upgrade cookiecutter
 
 
 
-# miniconda3 - https://docs.conda.io/projects/miniconda/en/latest/
+### Referência mini conda
+
+    miniconda3 - https://docs.conda.io/projects/miniconda/en/latest/
 
 ### Linux 
 

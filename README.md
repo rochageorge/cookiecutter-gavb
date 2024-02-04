@@ -54,7 +54,7 @@ Problema ao buscar o conda env no Windows
     
     cookiecutter https://github.com/rochageorge/cookiecutter-gavb.git
 
-4. Crie um ambiente virtual conda - ao nomear o ambiente, coloque o nome do projeto seguido do prexio _p + versão do python
+4. Crie um ambiente virtual conda - ao nomear o ambiente, coloque o nome do projeto seguido do prefixo _p + versão do python
 
     conda create -n nome_do_projeto_p39 python=3.9
 

@@ -1,0 +1,6 @@
+{
+    "project_name": "template_gavb_ds_mlops",
+    "project_gavb": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "short_description": "Escreva uma descrição breve sobre o projeto",
+    "author": "GAVB"
+}

@@ -1,7 +1,7 @@
 
 ### Sobre
 
-        Este projeto tem como objetivo, servir como estrutura base para a criação de novos projetos de ciências de dados na GAVB, para que possam estar melhor preparados para deploy em produção e menutenabilidade.
+    Este projeto tem como objetivo, servir como estrutura base para a criação de novos projetos de ciências de dados na GAVB, para que possam estar melhor preparados para deploy em produção e menutenabilidade.
 
 
 ### cookiecutter
@@ -15,9 +15,9 @@ pip install --upgrade cookiecutter
 
 ### Referência mini conda
 
-    miniconda3 - https://docs.conda.io/projects/miniconda/en/latest/
+- miniconda3 - https://docs.conda.io/projects/miniconda/en/latest/
     
-    comandos https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#activating-an-environment
+- comandos https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#activating-an-environment
 
 ### Linux 
 

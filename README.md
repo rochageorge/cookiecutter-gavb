@@ -14,6 +14,8 @@ pip install --upgrade cookiecutter
 ### Referência mini conda
 
     miniconda3 - https://docs.conda.io/projects/miniconda/en/latest/
+    
+    comandos https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#activating-an-environment
 
 ### Linux 
 
@@ -55,3 +57,5 @@ Problema ao buscar o conda env no Windows
 4. Crie um ambiente virtual conda - ao nomear o ambiente, coloque o nome do projeto seguido do prexio _p + versão do python
 
     conda create -n nome_do_projeto_p39 python=3.9
+
+    
